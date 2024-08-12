@@ -1,5 +1,5 @@
 module carry_select_adder_4nbit(a,b,cin,sum,cout);
-parameter n = 64;
+parameter n = 1;
 input [n-1:0]a,b;
 input cin;
 output [n-1:0]sum;
