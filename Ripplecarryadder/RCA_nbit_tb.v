@@ -7,8 +7,8 @@ wire cout;
 RCA_nbit dut (a,b,cin,sum,cout);
 initial
 begin
-    a = 16'h26c7;
-    b = 16'hd9c1;
+    a = 16'h0007;
+    b = 16'h0008;
     #10 $finish;
 end
 endmodule
