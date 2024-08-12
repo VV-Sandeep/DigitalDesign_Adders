@@ -9,6 +9,7 @@ initial
 begin
   A = 64'h0000000000123456;
   B = 64'h0000123456789001;
+  cin = 1'b0;
   #20 $finish;
 end
 endmodule
